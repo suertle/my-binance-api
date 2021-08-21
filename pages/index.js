@@ -10,7 +10,7 @@ export async function getStaticProps() {
 
 export default function Home(props) {
   function handleFetch() {
-    fetch('/api/hello/kitty?ssss=2222&total=sum')
+    fetch('/api/v3/exchangeInfo?ssss=2222&total=sum')
     .then(response => {
       return response.json()
     })
